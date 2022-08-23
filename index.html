@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Artfeel</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pattaya&family=Secular+One&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: transparent;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: rgb(0, 0, 0);
+		}
+
+		.nav-list li a:hover {
+			color: rgb(0, 0, 0);
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid rgb(0, 0, 0);
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: green;
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: blue;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 50px;
+			width: 120%;
+			padding-right: 700px;
+			padding-bottom: 125px;
+		}
+
+		.text-small {
+			font-size: 18px;
+			
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid rgb(0, 0, 0);
+			border-radius: 8px;
+			background: rgb(225, 109, 66);
+			color: rgb(0, 0, 0);
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 611px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 100%;
+			background-color: beige;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 570px;
+			border: 2px solid black;
+			border-radius: 298px;
+			margin-top: 9px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: rgb(0, 0, 0);
+		}
+
+		.title{
+			font-family: 'Pattaya', sans-serif;
+			font-size: 25px;
+		}
+
+		.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.para{
+	width: 120%;
+	padding-right: 770px;
+	padding-top: 50px;
+
+}
+
+.container .btn {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(214, 71, 71);
+  color: white;
+  font-size: 16px;
+  padding: 12px 11px;
+  border: none;
+  cursor: pointer;
+  border-radius: 140px;
+}
+
+.container .btn:hover {
+  background-color: rgb(33, 25, 25);
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 33px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+		
+	</style>
+</head>
+
+<body>
+	
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<li class="title">Artfeel</li>
+			<li>Home</li>
+			<li>Shop</li>
+			<li>Gallery</li>
+			<li>Contact</li>
+			<li>Search</li>
+		</ul>
+
+		<div class="rightNav">
+			<button class="btn btn-sm">Login</button>
+			<button class="btn btn-sm">Signup</button>
+		</div>
+	</nav>
+
+	<div class="container">
+		<img src="./lv5wcoG-mother-nature-wallpaper.jpg" alt="earth" style="width:100%;">
+		<div class="centered"><h1 class="sectionTag text-big">A passion and <br>Art of Design</h1></div>
+		<div class="centered"><p class="para">A new perspective of creative art.</p></div>
+		<button class="btn">Read More</button>
+	  </div>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+		<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+
+
+	</footer>
+</body>
+
+</html>
